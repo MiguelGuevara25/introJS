@@ -1,7 +1,7 @@
 const producto = {
-    nombreProducto : "Monitor 20 pulgadas",
-    precio : 300,
-    disponible : true
+    nombreProducto: "Monitor 20 pulgadas",
+    precio: 300,
+    disponible: true
 }
 
 const medidas = {
@@ -9,7 +9,10 @@ const medidas = {
     medida: '1m'
 }
 
-const nuevoProducto = { ...producto, ...medidas };
+const nuevoProducto = {
+    ...producto,
+    ...medidas
+};
 
 console.log(producto);
 console.log(nuevoProducto);
