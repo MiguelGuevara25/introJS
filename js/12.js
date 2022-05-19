@@ -8,8 +8,8 @@ const producto = {
 
 Object.seal(producto);
 
-producto.imagen = "imagen.jpg";
+producto.precio = 'NUEVO PRECIO';
 
-console.log(Object.isSealed(producto));
+delete producto.precio;
 
 console.log(producto);
